@@ -1,2 +1,2 @@
-# Project-1---Advanced-Programming
+# AP-Movie-Manager
 A movie collection software.
