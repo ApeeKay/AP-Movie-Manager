@@ -31,7 +31,6 @@ movie * delete_movie(movie *movie_collection, int id);
 void main(int argc, char* argv[])
 {
     movie movie_collection[1];
-    delete_movie(movie_collection,2);
 }
 
 void insert_movie()
