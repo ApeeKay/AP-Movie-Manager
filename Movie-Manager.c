@@ -19,7 +19,7 @@ typedef struct movie
     date* release_date;
 } movie;
 
-void insert_movie();
+void insert_movie(movie *movie_collection);
 movie * delete_movie(movie *movie_collection, int id);
 
 /* Utility functions */
@@ -33,7 +33,7 @@ void main(int argc, char* argv[])
     movie movie_collection[1];
 }
 
-void insert_movie()
+void insert_movie(movie *movie_collection)
 {
     //if the array is full reallocate it's size
     //take input from user
